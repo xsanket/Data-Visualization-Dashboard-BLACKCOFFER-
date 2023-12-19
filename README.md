@@ -1,1 +1,1 @@
-This is an Assignmen of Data Visualization DashBoard.
+This is an Assignment of Data Visualization DashBoard.
