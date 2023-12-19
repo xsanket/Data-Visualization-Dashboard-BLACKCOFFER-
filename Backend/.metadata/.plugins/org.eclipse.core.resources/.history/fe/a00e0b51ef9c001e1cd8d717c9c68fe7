@@ -1,0 +1,12 @@
+package com.dvdBackend.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.dvdBackend.entity.DataEntity;
+
+
+public interface DataRepo extends JpaRepository<DataEntity, Long>{
+
+
+	
+
+}

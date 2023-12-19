@@ -1,0 +1,10 @@
+package com.dvdBackend.Repository;
+
+
+@Repository
+public class Repository extends JpaRepository<entity, Long> {
+
+
+	
+
+}

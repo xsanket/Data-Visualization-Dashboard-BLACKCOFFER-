@@ -1,0 +1,15 @@
+package com.dvdBackend.service;
+
+import java.util.List;
+
+import com.dvdBackend.entity.DataEntity;
+
+public class DataServiceImpl implements DataService {
+
+	@Override
+	public List<DataEntity> getAllData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

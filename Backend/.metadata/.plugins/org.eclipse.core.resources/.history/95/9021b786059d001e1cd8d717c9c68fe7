@@ -1,0 +1,17 @@
+package com.dvdBackend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = "com.dvdBackend.service")
+public class DvdBackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DvdBackendApplication.class, args);
+		
+		System.out.println(" its running bro");
+	}
+
+}

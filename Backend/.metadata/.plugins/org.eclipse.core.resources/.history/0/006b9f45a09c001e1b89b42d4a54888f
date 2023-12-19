@@ -1,0 +1,10 @@
+package com.dvdBackend.Repository;
+
+
+@DataRepo
+public class DataRepo extends JpaRepository<entity, Long> {
+
+
+	
+
+}
